@@ -1,0 +1,49 @@
+@import './transition.scss';
+body{
+  margin:0;
+  min-width: 1440px;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+a{
+  text-decoration: none;
+}
+ul{
+  margin:0;
+  padding:0
+}
+li{
+  list-style: none;
+}
+
+#app {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: var(--bg-color);
+}
+
+@font-face {
+  font-family: Rainbow Party;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../text/Rainbow-Party-2.ttf");
+}
+
+* {
+  margin: 0;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: none;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; 
+  -webkit-touch-callout:none;/*系统默认菜单被禁用*/
+	-khtml-user-select:none;/*早起浏览器*/
+}

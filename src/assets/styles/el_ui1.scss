@@ -1,0 +1,139 @@
+/**红色主题*/
+html[data-theme="acquiesce"] {
+    --bg-color: #fff;
+    --text-color: #141414;
+    --bg-color-hover: #409eff10;
+    --bg-text-menu: #409eff;
+    --bg-app: #F2F3F5;
+    --bg-tag: #ebeef5;
+    --el-border-color-light: #e4e7ed;
+    --el-bg-color-overlay: #fff;
+    --bg-color1: #f2f6fc;
+    --bg-btn-color: #fff;
+    --el-text-color-regular:#000;
+}
+
+/**绿色主题*/
+html[data-theme="dark"] {
+    --bg-color: #141414;
+    --text-color: #fff;
+    --bg-color-hover: #141414;
+    --bg-text-menu: #fff;
+    --bg-app: #0A0A0A;
+    --bg-tag: #fbfbfb54;
+    --el-border-color-light: #49494a;
+    --el-bg-color-overlay: #49494a;
+    --bg-color1: #4f5252;
+    --bg-btn-color: #262727;
+    --el-text-color-regular:#fff;
+}
+
+
+
+$black: #000;
+
+.el-picker-panel {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+.el-picker-panel__footer {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+.el-input--small .el-input__inner {
+    color: $black;
+    -webkit-text-fill-color: $black;
+}
+
+.el-button.is-text:hover {
+    color: $black;
+}
+
+.el-button.is-plain {
+    color: $black;
+}
+
+.el-date-table td.in-range .el-date-table-cell {
+    background-color: var(--bg-color1) !important;
+}
+
+.el-select__wrapper {
+    background-color: var(--bg-color) !important;
+    box-shadow: 0 0 0 1px var(--bg-tag) inset !important;
+
+}
+
+.el-select__popper.el-popper {
+    background-color: var(--bg-color) !important;
+}
+
+.el-select__popper.el-popper .el-popper__arrow:before {
+    background-color: var(--bg-color) !important;
+}
+
+.el-select-dropdown__item.is-hovering {
+    background-color:  var(--bg-color1) !important;
+}
+
+.el-select-dropdown__item {
+    color: var(--text-color) !important;
+}
+
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf{
+    background-color: var(--bg-color);
+    border-bottom: 1px solid var(--bg-tag) !important;
+}
+
+.el-table--border .el-table__inner-wrapper:after, .el-table--border:after, .el-table--border:before, .el-table__inner-wrapper:before{
+   background-color:var(--bg-tag) !important;
+   display: none;
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell{
+    background-color: var(--bg-color1) !important;
+}
+
+.el-table__inner-wrapper{
+    background-color: var(--bg-color) !important;
+}
+.el-pager li{
+    background-color: var(--bg-btn-color) !important;
+    color: var(--text-color) !important;
+    margin-left: 10px;
+}
+.el-pager li.is-active{
+    color: var(--el-pagination-hover-color) !important;
+}
+.el-pagination button.is-disabled, .el-pagination button:disabled,
+.el-pagination button{
+    background-color: var(---bg-btn-color) !important;
+}
+.el-tag.el-tag--success,
+.el-tag--plain.el-tag--danger,
+.el-tag--plain.el-tag--warning,
+.el-tag--plain.el-tag--primary{
+    background-color: var(--bg-color) !important;
+}
+.el-menu--collapse .el-sub-menu.is-active .el-sub-menu__title{
+    color: var(--text-color) !important;
+}
+.el-dialog{
+    background-color: var(--bg-color) !important;;
+}
+.el-dialog__title{
+    color: var(--text-color) !important;;
+}
+.el-date-picker .el-time-panel{
+    background-color: var(--bg-color) !important;
+}
+.el-time-spinner__item.is-active:not(.is-disabled){
+    color: $black !important;
+}
+#screenShotContainer{
+    z-index: 99999999999999 !important;
+}
+
+#toolPanel{
+    z-index: 999999999999999!important;
+}

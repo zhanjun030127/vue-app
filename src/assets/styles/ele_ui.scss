@@ -1,0 +1,17 @@
+%el {
+    background-color: var(--bg-color);
+    box-shadow: 0 0 0 1px var(--bg-tag) inset;
+}
+
+
+:deep(.el-input__wrapper) {
+    @extend %el
+}
+
+:deep(.el-range-editor.is-active) {
+    @extend %el
+}
+
+:deep(.el-date-editor.el-input__wrapper:hover) {
+    @extend %el
+}
